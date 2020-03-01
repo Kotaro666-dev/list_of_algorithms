@@ -1,6 +1,13 @@
-.DS_Store
+#Add files without dots in them
+*
+!/**/
+!*.*
 
-# C/C++
+.DS_Store
+.vscode
+TempCodeRunnerFile.cpp
+
+# Format for C / C++
 # Prerequisites
 *.d
 
@@ -32,4 +39,4 @@
 # Executables
 *.exe
 *.out
-*.app 
+*.app
